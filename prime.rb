@@ -9,7 +9,9 @@ def prime?(number)
       if number % i === 0
         return false;
         break
-      else return true;
+      else 
+        return true;
+      end
   end
     
 end
