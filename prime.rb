@@ -4,7 +4,7 @@ def prime?(number)
     false
   else
  
-     for i 2..number 
+     for i in 2..number 
       if number % i === 0
         return false;
       
