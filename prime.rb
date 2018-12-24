@@ -11,7 +11,7 @@ def prime?(number)
         break
       end
     end
-    isPrime
+    if number > 1 isPrime
   end
   
 end
