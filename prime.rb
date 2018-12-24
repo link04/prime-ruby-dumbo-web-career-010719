@@ -4,8 +4,8 @@ def prime?(number)
     false
   else
     i = 2
-    root = number **(1.0/3)
-     for i..root 
+   
+     for i..number 
       if number % i === 0
         return false;
       
