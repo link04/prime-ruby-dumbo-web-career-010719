@@ -11,7 +11,7 @@ def prime?(number)
         break
       end
     end
-    if number < 2 isPrime 
+    if number < 2 isPrime = false
   end
   
 end
