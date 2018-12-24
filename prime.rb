@@ -5,12 +5,12 @@ def prime?(number)
   else
  
      for i in 2..number 
-      if number % i === 0
-        return false;
-      
-      else 
-        return true;
-      end 
+        if number % i === 0
+          return false;
+        
+        else 
+          return true;
+        end 
       end
   end
     
