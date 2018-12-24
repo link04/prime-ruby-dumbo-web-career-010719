@@ -3,14 +3,12 @@ def prime?(number)
   if number < 2
     false
   else
-     for i in 2..number 
-        if number % i == 0
-          return false;
-        else 
-          true 
-          break
-        end 
-      end
+    
+    if number % i == 0
+      false
+    else 
+      true 
+    end
   end
 end
   
