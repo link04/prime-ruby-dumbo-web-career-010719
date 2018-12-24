@@ -9,7 +9,7 @@ def prime?(number)
         break
       end
     end
-    if number < 2 isPrime = false
+    if number < 2 then isPrime = false
  
   
 end
