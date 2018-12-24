@@ -1,13 +1,9 @@
 def prime?(number)
   
-  if number < 2
-    false
-  else
-    if number % 1 == 0 && number % number == 0 
-      true
-    else 
-      false 
-    end
+  for d in 2..(n - 1)
+   if (n % d) == 0
+    return false
+   end
   end
 end
   
