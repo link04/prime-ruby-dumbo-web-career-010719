@@ -1,6 +1,6 @@
 def prime?(number)
   
-  for int in 2..(number - 1)
+  for int in 2..number / 2
    if (number % d) == 0
     return false
    end
