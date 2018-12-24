@@ -1,9 +1,11 @@
 def prime?(number)
   
   for int in 2..number / 2
-   if (number % d) == 0
-    return false
-   end
+    if(n % i == 0)
+      {
+          isPrime = false;
+          break;
+      }
   end
   
 end
