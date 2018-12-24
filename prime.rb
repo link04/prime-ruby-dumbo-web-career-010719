@@ -8,7 +8,7 @@ def prime?(number)
      for i..root 
       if number % i === 0
         return false;
-        break
+      
       else 
         return true;
         break
