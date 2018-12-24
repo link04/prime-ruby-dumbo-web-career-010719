@@ -11,7 +11,7 @@ def prime?(number)
       
       else 
         return true;
-        break
+     
       end
   end
     
