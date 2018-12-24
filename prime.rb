@@ -1,6 +1,6 @@
 def prime?(number)
   
-  for d in 2..(number - 1)
+  for int in 2..(number - 1)
    if (number % d) == 0
     return false
    end
@@ -8,3 +8,11 @@ def prime?(number)
   
 end
   
+  for(i = 2; i <= n / 2; ++i)
+  {
+      if(n % i == 0)
+      {
+          isPrime = false;
+          break;
+      }
+  }
