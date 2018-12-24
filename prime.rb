@@ -7,6 +7,6 @@ def prime?(number)
           break;
       }
   end
-  
+  isPrime
 end
   
