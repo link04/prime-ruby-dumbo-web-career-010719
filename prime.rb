@@ -1,8 +1,6 @@
 def prime?(number)
   
-  if  number < 2
-    false
-  else
+
     isPrime = true
     half = number / 2
     for int in 2..half
@@ -12,7 +10,7 @@ def prime?(number)
       end
     end
     isPrime
-  end
+
   
 end
   
